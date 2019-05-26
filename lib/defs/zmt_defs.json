@@ -16,7 +16,8 @@
         "UTIL": 7,
         "DBG": 8,
         "APP": 9,
-        "APP_CNF": 15
+        "APP_CNF": 15,
+        "GREENPOWER": 21
     },
     "ParamType": {
         "uint8": 0,
@@ -291,5 +292,8 @@
         "bdbStartCommissioning": 5,
         "bdbSetChannel": 8,
         "bdbComissioningNotifcation": 128
+    },
+    "GREENPOWER": {
+        "secReq": 3
     }
 }

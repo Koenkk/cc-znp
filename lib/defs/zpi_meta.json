@@ -5125,5 +5125,41 @@
                 ]
             }
         }
+    },
+    "GREENPOWER": {
+        "secReq": {
+            "type": 1,
+            "cmdId": 3,
+            "params": {
+                "req": [
+                    {
+                        "applicationID": 0
+                    },
+                    {
+                        "srcID": 2
+                    },
+                    {
+                        "gdpIeeeAddr": 3
+                    },
+                    {
+                        "endpoint": 0
+                    },
+                    {
+                        "gpdfSecurityLevel": 0
+                    },
+                    {
+                        "gpdfSecurityFrameCounter": 0
+                    },
+                    {
+                        "dgpStubHandle": 0
+                    }
+                ],
+                "rsp": [
+                    {
+                        "status": 0
+                    }
+                ]
+            }
+        }
     }
 }
